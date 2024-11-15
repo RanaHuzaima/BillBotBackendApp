@@ -4,8 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "build": ""
+    "start": "node index.js"
   },
   "dependencies": {
     "appwrite": "16.0.2",
