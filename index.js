@@ -86,6 +86,7 @@ app.post('/api/v1/verify-machine', async (req, res) => {
 
 // Start the Server
 const PORT = process.env.PORT || 3000;
+const Domain = process.env.DOMAIN || "http://localhost"
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on ${Domain}:${PORT}`);
 });
